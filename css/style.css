@@ -33,7 +33,7 @@ body a:hover{
 }
 /*--baner--*/
 .banner {
-	background:url(../images/a.jpg)no-repeat center 0px;
+	background:url(../images/bg2.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
@@ -178,12 +178,19 @@ p {
     background: #000;
 }
 .work-left {
+    /*border-right: 1px solid #999;*/
     text-align: right;
     padding: 3em 5em 0 0;
 }
 .work-right {
     border-left: 1px solid #999;
     padding: 2.5em 0 2em 6em;
+}
+.work-info li {
+    color: #898180;
+}
+.work-info p {
+    color: #E8D8D6;
 }
 .work-info h4 {
     font-size: 1.2em;
@@ -267,6 +274,9 @@ p {
 /*--education--*/
 .education .work-info h5 {
     color: #000;
+}
+.education .work-info p {
+    color: #5B5655;
 }
 /*--//education--*/
 /*--skills--*/
@@ -538,6 +548,17 @@ h2.resp-accordion {
     right: -17px;
 }
 .contact-form input[type="text"] {
+    width: 49%;
+    color: #fff;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: .8em 1em;
+    border: 1px solid #8C8C8C;
+    -webkit-appearance: none;
+    display: inline-block;
+}
+.contact-form input[type="email"] {
     width: 49%;
     color: #fff;
     background: none;
